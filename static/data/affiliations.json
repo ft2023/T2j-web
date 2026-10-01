@@ -1,16 +1,16 @@
 {
   "checked": "2026-10-01",
-  "note": "Public professional affiliations; author-requested website mapping. These sources do not establish every manuscript-specific internship or secondary affiliation.",
+  "note": "Manuscript-specific affiliations confirmed by the author; user corrections take precedence over public-profile affiliations.",
   "authors": [
     {
       "name": "Tao Feng",
-      "affiliation": "University of Illinois Urbana-Champaign",
-      "source": "https://ft2023.github.io/taofeng.github.io/"
+      "affiliation": "University of Illinois Urbana-Champaign; Google Cloud AI Research",
+      "source": "Author confirmed dual affiliation on 2026-10-01"
     },
     {
       "name": "Jiefeng Chen",
-      "affiliation": "Google",
-      "source": "https://research.google/people/jiefengchen/"
+      "affiliation": "Google Cloud AI Research",
+      "source": "Author confirmed manuscript-specific affiliation on 2026-10-01"
     },
     {
       "name": "Linxin Song",
@@ -19,8 +19,8 @@
     },
     {
       "name": "Yufan Zhuang",
-      "affiliation": "Google",
-      "source": "https://evanzhuang.github.io/"
+      "affiliation": "Google Cloud AI Research",
+      "source": "Author confirmed manuscript-specific affiliation on 2026-10-01"
     },
     {
       "name": "Yue Huang",
@@ -29,8 +29,8 @@
     },
     {
       "name": "Bhavana Dalvi Mishra",
-      "affiliation": "Google",
-      "source": "https://bhavanadalvi.github.io/"
+      "affiliation": "Google Cloud AI Research",
+      "source": "Author confirmed manuscript-specific affiliation on 2026-10-01"
     },
     {
       "name": "Chi Wang",
@@ -39,8 +39,8 @@
     },
     {
       "name": "Xiangru Tang",
-      "affiliation": "Yale University",
-      "source": "https://engineering.yale.edu/academic-study/departments/computer-science/people"
+      "affiliation": "Google Cloud AI Research",
+      "source": "Author confirmed manuscript-specific affiliation on 2026-10-01"
     },
     {
       "name": "Jieyu Zhao",
@@ -54,13 +54,13 @@
     },
     {
       "name": "Tomas Pfister",
-      "affiliation": "Google",
-      "source": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/"
+      "affiliation": "Google Cloud AI Research",
+      "source": "Author confirmed manuscript-specific affiliation on 2026-10-01"
     },
     {
       "name": "Jinsung Yoon",
-      "affiliation": "Google",
-      "source": "https://sites.google.com/view/jinsungyoon/research/industry-experience"
+      "affiliation": "Google Cloud AI Research",
+      "source": "Author confirmed manuscript-specific affiliation on 2026-10-01"
     }
   ]
 }
