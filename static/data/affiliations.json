@@ -1,0 +1,66 @@
+{
+  "checked": "2026-10-01",
+  "note": "Public professional affiliations; author-requested website mapping. These sources do not establish every manuscript-specific internship or secondary affiliation.",
+  "authors": [
+    {
+      "name": "Tao Feng",
+      "affiliation": "University of Illinois Urbana-Champaign",
+      "source": "https://ft2023.github.io/taofeng.github.io/"
+    },
+    {
+      "name": "Jiefeng Chen",
+      "affiliation": "Google",
+      "source": "https://research.google/people/jiefengchen/"
+    },
+    {
+      "name": "Linxin Song",
+      "affiliation": "University of Southern California",
+      "source": "https://linxins.net/"
+    },
+    {
+      "name": "Yufan Zhuang",
+      "affiliation": "Google",
+      "source": "https://evanzhuang.github.io/"
+    },
+    {
+      "name": "Yue Huang",
+      "affiliation": "University of Notre Dame",
+      "source": "https://howiehwong.github.io/"
+    },
+    {
+      "name": "Bhavana Dalvi Mishra",
+      "affiliation": "Google",
+      "source": "https://bhavanadalvi.github.io/"
+    },
+    {
+      "name": "Chi Wang",
+      "affiliation": "Google DeepMind",
+      "source": "Author confirmed manuscript-specific affiliation on 2026-10-01"
+    },
+    {
+      "name": "Xiangru Tang",
+      "affiliation": "Yale University",
+      "source": "https://engineering.yale.edu/academic-study/departments/computer-science/people"
+    },
+    {
+      "name": "Jieyu Zhao",
+      "affiliation": "University of Southern California",
+      "source": "https://www.cs.usc.edu/directory/faculty/"
+    },
+    {
+      "name": "Ge Liu",
+      "affiliation": "University of Illinois Urbana-Champaign",
+      "source": "https://grainger.illinois.edu/about/directory/faculty/geliu"
+    },
+    {
+      "name": "Tomas Pfister",
+      "affiliation": "Google",
+      "source": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/"
+    },
+    {
+      "name": "Jinsung Yoon",
+      "affiliation": "Google",
+      "source": "https://sites.google.com/view/jinsungyoon/research/industry-experience"
+    }
+  ]
+}
