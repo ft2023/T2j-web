@@ -12,7 +12,7 @@
 <p class="eyebrow">Whole-repository migration · Execution-grounded evaluation</p>
 <h1><span class="project-name">T2J-BENCH</span><span class="paper-title">Benchmarking Coding Agents on Execution-Grounded<br class="desktop-break"> PyTorch-to-JAX Repository Migration</span></h1>
 <div class="authors"><span class="author-block">Tao Feng<sup>1,2,*</sup></span> <span class="author-block">Jiefeng Chen<sup>2,*</sup></span> <span class="author-block">Linxin Song<sup>3</sup></span> <span class="author-block">Yufan Zhuang<sup>2</sup></span> <span class="author-block">Yue Huang<sup>4</sup></span> <span class="author-block">Bhavana Dalvi Mishra<sup>2</sup></span> <span class="author-block">Chi Wang<sup>5</sup></span> <span class="author-block">Xiangru Tang<sup>2</sup></span> <span class="author-block">Jieyu Zhao<sup>3</sup></span> <span class="author-block">Ge Liu<sup>1</sup></span> <span class="author-block">Tomas Pfister<sup>2</sup></span> <span class="author-block">Jinsung Yoon<sup>2</sup></span></div><div class="affiliations"><span><sup>1</sup> University of Illinois Urbana-Champaign</span><span><sup>2</sup> Google Cloud AI Research</span><span><sup>3</sup> University of Southern California</span><span><sup>4</sup> University of Notre Dame</span><span><sup>5</sup> Google DeepMind</span></div><p class="equal-contrib">* Equal contribution</p>
-<div class="publication-links"><span aria-hidden="true">↗</span> Paper PDFPaper<a class="button" href="#results">Results <span aria-hidden="true">↓</span></a><span class="release-note">Benchmark release forthcoming</span></div>
+<div class="publication-links"><a class="button primary" href="https://arxiv.org/pdf/2605.29054"><span aria-hidden="true">↗</span> Paper PDF</a><a class="button" href="https://arxiv.org/abs/2605.29054">arXiv</a><a class="button" href="#results">Results <span aria-hidden="true">↓</span></a><span class="release-note">Benchmark release forthcoming</span></div>
 <p class="hero-summary">Can coding agents migrate a whole ML repository<br class="desktop-break"> and preserve <em>how it actually behaves?</em></p>
 <div class="stat-ribbon"><div><strong>63</strong><span>Repository migrations</span></div><div><strong>18</strong><span>Model families</span></div><div><strong>45 <i>/</i> 18</strong><span>Training / serving tasks</span></div><div><strong>20</strong><span>Off-the-shelf configurations</span></div></div>
 </div></header>
@@ -43,23 +43,15 @@
 <div class="takeaway"><span class="label">A strict information boundary</span><p>TwinHarness uses the task specification, visible PyTorch source, released checkpoint, and candidate execution. <strong>It does not access hidden tests, frozen reference outputs, reference JAX solutions, verifier code, or benchmark rewards.</strong></p></div>
 <div class="ablation-grid"><div><p class="eyebrow">Structured refinement</p><h3>Better feedback makes<br>the next iteration count.</h3><p>With Claude-Code / opus-5, TwinHarness improves from 0.662 after one round to 0.723 after two. Ordinary continuation improves from 0.649 to 0.658.</p><p>With OpenCode, second-round regressions affect <strong>2 of 63 tasks</strong> under TwinHarness versus <strong>22</strong> under ordinary continuation. Each method starts from its own first-round candidate.</p></div><figure><a href="static/figures/iteration.pdf" aria-label="Open iteration ablation as PDF"><img src="static/images/iteration.png" width="1591" height="815" loading="lazy" alt="One- versus two-round reward comparison for base agents and TwinHarness with Claude-Code and OpenCode, using opus-5."></a><figcaption>Gains emerge through iteration; they are not uniform at every round budget.</figcaption></figure></div>
 </div></section>
-<section class="section tinted" id="BibTeX"><div class="container citation"><div class="citation-heading"><div><p class="eyebrow">Citation</p><h2>BibTeX</h2></div><button class="button" id="copy-bibtex" type="button">Copy BibTeX</button></div><pre tabindex="0"><code>@misc{feng2026t2jbench,
-  title = {T2J-BENCH: Benchmarking Coding Agents on Execution-Grounded
-           PyTorch-to-JAX Repository Migration},
-  author = {Tao Feng and
-            Jiefeng Chen and
-            Linxin Song and
-            Yufan Zhuang and
-            Yue Huang and
-            Bhavana Dalvi Mishra and
-            Chi Wang and
-            Xiangru Tang and
-            Jieyu Zhao and
-            Ge Liu and
-            Tomas Pfister and
-            Jinsung Yoon},
+<section class="section tinted" id="BibTeX"><div class="container citation"><div class="citation-heading"><div><p class="eyebrow">Citation</p><h2>BibTeX</h2></div><button class="button" id="copy-bibtex" type="button">Copy BibTeX</button></div><pre tabindex="0"><code>@article{song2026converted,
+  title = {Converted, Not Equivalent: Benchmarking Codebase Conversion via Observational Equivalence},
+  author = {Song, Linxin and Chen, Jiefeng and Huang, Yue and
+            Mishra, Bhavana Dalvi and Wang, Chi and Zhao, Jieyu and
+            Yoon, Jinsung and Pfister, Tomas},
+  journal = {arXiv preprint arXiv:2605.29054},
   year = {2026},
-  url = {[removed]}
+  doi = {10.48550/arXiv.2605.29054},
+  url = {https://arxiv.org/abs/2605.29054}
 }</code></pre><p id="copy-status" role="status"></p></div></section>
 </main><footer><div class="container"><a class="footer-brand" href="#top">T2J-BENCH <span>↑</span></a><p>Benchmarking the behavior that survives migration.</p><p class="attribution">Website adapted from <a href="https://scientist-two.github.io/">ScientistTwo</a>, with template lineage from <a href="https://nerfies.github.io/">Nerfies</a>.</p></div></footer>
 </body></html>
